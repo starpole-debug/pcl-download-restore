@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/.tools/
+.vs/
+*.user
+*.suo
+*.log
+*.bak
+*.pfx
+*.snk

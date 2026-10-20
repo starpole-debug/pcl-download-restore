@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework><OutputType>Exe</OutputType><LangVersion>13</LangVersion><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>PclRestore</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup><PackageReference Include="dnlib" Version="4.5.0" /></ItemGroup>
+  <ItemGroup><Compile Include="..\analyzer\Transplant.cs" Link="Transplant.cs" /><Compile Include="..\analyzer\Audit.cs" Link="Audit.cs" /></ItemGroup>
+</Project>

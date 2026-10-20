@@ -1,0 +1,21 @@
+Validation date: 2026-10-20
+Supported official file version: 2.99.0.0
+Compatibility: assembly version 2.99.0.0 plus required method/reference structure.
+No fixed original-file hash allowlist.
+
+PASS: official EXE copy patched with five restored method bodies.
+PASS: all other method bodies, embedded resources and field constants unchanged.
+PASS: MC version list displayed through restored LoaderInit.
+PASS: b1.8.1 actual download and installation completed through UI.
+PASS: client JAR SHA1 matched manifest: 6b562463ccc2c7ff12ff350a2b04a67b3adcd37b.
+PASS: Windows PowerShell 5 script generated backup and replaced EXE.
+PASS: restore script restored original SHA256 exactly.
+PASS: unsupported 2.10.3.0 file refused; original hash unchanged.
+PASS: same-version EXE with appended data and a different hash accepted.
+PASS: restoring this different-hash EXE recovered exact original bytes.
+
+The UI-only validation copy additionally disabled WaitingMutex to avoid disturbing
+an existing running PCL instance. This extra modification is NOT in the patch.
+No fresh login or complete modpack test.
+No automatic-update changes: future official updates can overwrite the patch.
+
